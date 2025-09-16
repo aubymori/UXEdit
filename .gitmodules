@@ -1,0 +1,3 @@
+[submodule "src/WTL"]
+	path = src/WTL
+	url = https://github.com/Win32-WTL/WTL
