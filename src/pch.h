@@ -1,4 +1,6 @@
-#pragma once
+#ifndef _PCH_H
+#define _PCH_H
+
 #include <windows.h>
 
 #ifndef STRICT
@@ -14,3 +16,7 @@
 #include <atlctl.h>
 #include <atlwin.h>
 #include <atlapp.h>
+
+extern CAppModule _Module;
+
+#endif
