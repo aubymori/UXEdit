@@ -1,3 +1,4 @@
+#include "pch.h"
 #include "MainWindow.h"
 
 LRESULT CMainWindow::OnCreate(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL &fHandled)

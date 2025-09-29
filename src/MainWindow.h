@@ -2,10 +2,10 @@
 #include "pch.h"
 #include "atlframe.h"
 
-class CMainWindow : public CWindowImpl<CMainWindow>
+class CMainWindow : public CFrameWindowImpl<CMainWindow>
 {
 public:
-	DECLARE_WND_CLASS(L"UXEdit_MainWindow")
+	DECLARE_FRAME_WND_CLASS(L"UXEdit_MainWindow", IDR_MAINMENU)
 
 	BEGIN_MSG_MAP(CMainWindow)
 		MESSAGE_HANDLER(WM_CREATE, OnCreate)

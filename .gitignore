@@ -2,4 +2,7 @@ x64/
 Release/
 Debug/
 .vs/
+*.exe
+*.pdb
+*.obj
 *.user
